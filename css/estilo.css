@@ -13,16 +13,17 @@
 
 header {
     grid-area: header;
-    background-color: black;
+   /*  background-color: black; */
     color: white;
 }
 
 footer {
     grid-area: footer;
     width: auto;
-    height: 100px;
+    height: 200px;
+    margin-top: 30px;
     text-align: left;
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 
@@ -41,7 +42,10 @@ h2{
     margin-bottom: 20px;
 }
 
-
+h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 
 .border {
     border: 2px solid black;
@@ -125,4 +129,12 @@ h2{
     text-align: right;    
    }
 
+   .gdt_cbza{
+    background: rgb(6,10,10);
+    background: linear-gradient(0deg, rgba(6,10,10,1) 0%, rgba(240,16,16,1) 100%);
+   }
 
+   .gdt_foot{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(231,6,6,1) 35%);
+   }
